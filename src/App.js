@@ -21,7 +21,7 @@ const App = () => {
   const displayVideo = (!videoSelected) ? null : (<VideoDetail video={videoSelected} />);
   return (
     <AppContainer>
-      <h2>Videos App</h2>
+      <h2>Mini YouTube Page</h2>
       <div className="ui one columns grid" >
         <SearchContainer>
           <SearchBar onSubmit={search} />
